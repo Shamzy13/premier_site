@@ -1,0 +1,7 @@
+baseURL = "https://example.org/"
+languageCode = "fr-fr"
+title = "Mon premier Site"
+theme = "hello"
+
+[params.logo]
+    logoText = "Mon premier Site"

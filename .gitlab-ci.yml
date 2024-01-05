@@ -1,0 +1,18 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  CI_NODE_IMAGE: "node:21.4.0"  # Utilisez la version de Node.js appropriée pour votre projet
+
+before_script:
+  - npm install  # Vous pouvez utiliser npm install si vous préférez npm
+
+build:
+  stage: build
+  script:
+    - npm run build  # Ou npm run build
+
+deploy:
+  stage: deploy
+  
